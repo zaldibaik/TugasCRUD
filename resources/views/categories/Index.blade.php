@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container  text-white">
     <h1>Daftar gentre</h1>
     <a href="{{ route('categories.create') }}" class="btn btn-primary mb-3">Tambah genre</a>
     <table class=" table table-dark table-striped">
